@@ -11,10 +11,10 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   
 ## 
   ```math
-    u(s) = \left\{ \begin{array}{ll}
-    (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
-    -a{|s|}^{3} -5a{|s|}^{2} + 8a{|s|} -4a & (1 < |s| \le 2)\\
-    0 & (2 < |x|)
+  u(s) = \left\{ \begin{array}{ll}
+  (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
+  -a{|s|}^{3} -5a{|s|}^{2} + 8a{|s|} -4a & (1 < |s| \le 2)\\
+  0 & (2 < |x|)
   \end{array} \right.
   ```
 ## Example
