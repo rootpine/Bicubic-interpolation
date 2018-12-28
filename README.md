@@ -11,6 +11,7 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## Formulation
+  * Interpolation kernel  
   ![Formulation](./formulation.png)
   
 ## Example
