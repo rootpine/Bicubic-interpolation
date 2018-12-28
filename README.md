@@ -10,6 +10,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## 
+  ``` math
+  F(s)=\int_{0}^{\infty}f(t)e^{-st}dt
+  ```
   ```math
   u(s) = \left\{ \begin{array}{ll}
   (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
@@ -18,13 +21,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   \end{array} \right.
   ```
 ## Example
-  * Upscale input image x2  
-  |![Input image](./butterfly.png)|
-  |:--:| 
-  | *Input image (216x216)* |
-  |![Output image](./bicubic_butterfly.png)|
-  |:--:| 
-  | *Output image (512x512)* |
+  * Upscale input image 2 times (ratio = 2)  
+  ![Input image](./butterfly.png)*Input image (216x216)*
+  ![Output image](./bicubic_butterfly.png)*Output image (512x512)*
   
 ## Requirement
   * Python 3.5.2 or more 
