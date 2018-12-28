@@ -26,7 +26,7 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * Python 3.5.2 or more 
 
 ## Installation
-  * `$ git clone https://github.com/rootpine/Bicubic-interpolation/`
+  * `$ git clone https://github.com/rootpine/Bicubic-interpolation.git`
 
 ## Usage
    1. `$ python3 bicubic.py`
