@@ -10,7 +10,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## Example
-   
+  ![Input image (216x216)](./butterfly.png)
+  ![Output image (512x512)](./bicubic_butterfly.png)
+
 ## Requirement
   - Python 3.5.2 or more 
 
