@@ -12,9 +12,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   
 ## Formulation
   * Interpolation kernel  
-  ![Formulation](./formulation.png)
+  ![Formulation](./formulation.png)  
   
-  * Interpolation
+  * Interpolation  
   ![Formulation2](./formulation2.png)
   
 ## Example
