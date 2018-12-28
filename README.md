@@ -2,7 +2,7 @@
 This repository is for simple implementation of 'Bicubic-interpolation for images' (Python3). 
 
 ## Table of contents
-  * [Example](Example)
+  * [Example](#header1)
   * [Requirement](Requirement)
   * [Installation](Installation)
   * [Usage](Usage)
