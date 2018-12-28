@@ -15,7 +15,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   ![Formulation](./formulation.png)  
   
   * Interpolation  
+  Use the values of 16 pixels around the new pixel dst(x,y). (x,y) shows the location of pixels. 
   ![Formulation2](./formulation2.png)
+  Here, f means the values of pixels. x1, x2, x3, x4 are the distance of x direction from new pixel to near 16 pixels. y1, ... are the distance of y direction. 
   
 ## Example
   * Upscale input image 2 times (ratio = 2)  
