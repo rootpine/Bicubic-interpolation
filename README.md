@@ -9,15 +9,26 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Reference](#Reference)
   * [Author](#Author)
   
+## 
+  ```math
+  \begin{equation}
+    u(s) = \left\{ \begin{array}{ll}
+    (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
+    -a{|s|}^{3} -5a{|s|}^{2} + 8a{|s|} -4a & (1 < |s| \le 2)\\
+    0 & (2 < |x|)
+  \end{array} \right.
+  \end{equation}
+  ```
 ## Example
+  * 
   ![Input image](./butterfly.png "Input image (216x216)")
   ![Output image](./bicubic_butterfly.png "Output image (512x512)")
 
 ## Requirement
-  - Python 3.5.2 or more 
+  * Python 3.5.2 or more 
 
 ## Installation
-  `$ git clone https://github.com/rootpine/Bicubic-interpolation/`
+  * `$ git clone https://github.com/rootpine/Bicubic-interpolation/`
 
 ## Usage
    1. `$ python3 bicubic.py`
