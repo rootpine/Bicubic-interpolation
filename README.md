@@ -22,8 +22,7 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
 ## Example
   * Upscale input image 2 times (ratio = 2)    
   ![Input image](./butterfly.png)  
-  ↑ Input image (216x216)   
-    
+  ↑ Input image (216x216)     
   ![Output image](./bicubic_butterfly.png)  
   ↑ Output image (512x512)
   
