@@ -18,9 +18,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   \end{array} \right.
   ```
 ## Example
-  * 
-  ![Input image](./butterfly.png "Input image (216x216)")
-  ![Output image](./bicubic_butterfly.png "Output image (512x512)")
+  * Upscale input image x2
+  ![Input image](./butterfly.png)*Input image (216x216)*
+  ![Output image](./bicubic_butterfly.png)*Output image (512x512)*
 
 ## Requirement
   * Python 3.5.2 or more 
