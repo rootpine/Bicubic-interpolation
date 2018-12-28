@@ -38,4 +38,4 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
 
 
 ## Author
-  [@rootpine][https://github.com/rootpine/]
+  [@rootpine](https://github.com/rootpine/)
