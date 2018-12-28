@@ -11,11 +11,11 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## Formulation
-  * Interpolation kernel  
+  * Interpolation kernel [1]  
   ![Formulation](./formulation.png)  
   
   * Interpolation  
-  Use the values of 16 pixels around the new pixel dst(x,y). (x,y) shows the location of pixels. 
+  Use the values of 16 pixels around the new pixel dst(x,y).[1][2] (x,y) shows the location of pixels. 
   ![Formulation2](./formulation2.png)  
   Here, f means the values of pixels. x1, x2, x3, x4 are the distance of x direction from new pixel to near 16 pixels. y1, ... are the distance of y direction. 
   
@@ -30,14 +30,14 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * Python 3.5.2 or more 
 
 ## Installation
-  `$ git clone https://github.com/rootpine/Bicubic-interpolation.git`
+ `$ git clone https://github.com/rootpine/Bicubic-interpolation.git`
 
 ## Usage
-   1. `$ python3 bicubic.py`
+  1. `$ python3 bicubic.py`
 
 ## Reference
-  * R. Keys, "Cubic convolution interpolation for digital image processing," in IEEE Transactions on Acoustics, Speech, and Signal Processing, vol. 29, no. 6, pp. 1153-1160, December 1981. URL: <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1163711&isnumber=26156>
-
+  1. R. Keys, "Cubic convolution interpolation for digital image processing," in IEEE Transactions on Acoustics, Speech, and Signal Processing, vol. 29, no. 6, pp. 1153-1160, December 1981. URL: <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1163711&isnumber=26156>
+  2. 奥富正敏ら, "ディジタル画像処理[改定新板]", CG-ARTS協会, pp. 170-171, 2016.
 
 ## Author
   [@rootpine](https://github.com/rootpine/)
