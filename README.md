@@ -20,11 +20,11 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   Here, f means the values of pixels. x1, x2, x3, x4 are the distance of x direction from new pixel to near 16 pixels. y1, ... are the distance of y direction. 
   
 ## Example
-  * Upscale input image 2 times (ratio = 2)  
-  Input image (216x216)  
-  ![Input image](./butterfly.png)  
-  Output image (512x512)  
-  ![Output image](./bicubic_butterfly.png)
+  * Upscale input image 2 times (ratio = 2)    
+  ↑![Input image](./butterfly.png)  
+  Input image (216x216)   
+  ![Output image](./bicubic_butterfly.png)  
+  ↑Output image (512x512)
   
 ## Requirement
   * Python 3.5.2 or more 
