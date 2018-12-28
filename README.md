@@ -10,9 +10,6 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## 
-  ``` math
-  F(s)=\int_{0}^{\infty}f(t)e^{-st}dt
-  ```
   ```math
   u(s) = \left\{ \begin{array}{ll}
   (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
