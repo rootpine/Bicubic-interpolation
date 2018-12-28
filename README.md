@@ -11,15 +11,8 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * [Author](#Author)
   
 ## Formulation
-  ```math
-  \begin{equation*}
-  u(s) = \left\{ \begin{array}{ll}
-  (a + 2){|s|}^{3} - (a+3){|s|}^{2} + 1 & (0 < |s| \le 1) \\
-  -a{|s|}^{3} -5a{|s|}^{2} + 8a{|s|} -4a & (1 < |s| \le 2)\\
-  0 & (2 < |x|)
-  \end{array} \right.
-  end{equation}
-  ```
+  ![Formulation](./formulation.png)
+  
 ## Example
   * Upscale input image 2 times (ratio = 2)  
   ![Input image](./butterfly.png)*Input image (216x216)*
