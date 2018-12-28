@@ -37,7 +37,8 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
 
 ## Reference
   1. R. Keys, "Cubic convolution interpolation for digital image processing," in IEEE Transactions on Acoustics, Speech, and Signal Processing, vol. 29, no. 6, pp. 1153-1160, December 1981. URL: <http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1163711&isnumber=26156>
-  2. 奥富正敏ら, "ディジタル画像処理[改定新板]", CG-ARTS協会, pp. 170-171, 2016.
+  2. 奥富正敏ら, "ディジタル画像処理[改定新版]", CG-ARTS協会, pp. 170-171, 2016.
+  3. https://github.com/yunabe/codelab/blob/master/misc/terminal_progressbar/progress.py to show the progress.
 
 ## Author
   [@rootpine](https://github.com/rootpine/)
