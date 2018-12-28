@@ -14,6 +14,9 @@ This repository is for simple implementation of 'Bicubic-interpolation for image
   * Interpolation kernel  
   ![Formulation](./formulation.png)
   
+  * Interpolation
+  ![Formulation2](./formulation2.png)
+  
 ## Example
   * Upscale input image 2 times (ratio = 2)  
   ![Input image](./butterfly.png)*Input image (216x216)*
